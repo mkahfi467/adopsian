@@ -117,9 +117,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('ADOPTION', style: Theme.of(context).textTheme.headlineMedium),
+            Text('ADOPSIAN', style: Theme.of(context).textTheme.headlineMedium),
             Text(
-              'Adoption sebuah aplikasi untuk memfasilitasi dan memudahkan proses adopsi hewan peliharaan. Pada aplikasi ini, user dapat menawarkan (Offer) hewan untuk diadopsi dan juga bisa mengadopsi hewan (Adopt).',
+              'Adopsian sebuah aplikasi untuk memfasilitasi dan memudahkan proses adopsi hewan peliharaan. Pada aplikasi ini, user dapat menawarkan (Offer) hewan untuk diadopsi dan juga bisa mengadopsi hewan (Adopt).',
               style: Theme.of(context).textTheme.bodyMedium,
             ),
             Text("User Login ID : " + activeUser),
