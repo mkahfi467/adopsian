@@ -93,13 +93,13 @@ class _MyHomePageState extends State<MyHomePage> {
               doLogout();
             },
           ),
-          ListTile(
-            title: new Text("Register"),
-            leading: new Icon(Icons.app_registration_outlined),
-            onTap: () {
-              Navigator.popAndPushNamed(context, 'register');
-            },
-          ),
+          // ListTile(
+          //   title: new Text("Register"),
+          //   leading: new Icon(Icons.app_registration_outlined),
+          //   onTap: () {
+          //     Navigator.popAndPushNamed(context, 'register');
+          //   },
+          // ),
         ],
       ),
     );
