@@ -57,7 +57,7 @@ class _Browse extends State<Browse> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 ListTile(
-                  leading: const Icon(Icons.movie, size: 30),
+                  leading: const Icon(Icons.pets, size: 30),
                   title: GestureDetector(
                       child: Text(PMs[index].nama_binatang),
                       onTap: () {
